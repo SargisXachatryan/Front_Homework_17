@@ -1,0 +1,162 @@
+.container {
+    max-width: 1200px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.user-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.user-card {
+    background-color: #4a4a4a;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.user-info {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.salary {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+.button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #3273dc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: stretch;
+}
+
+.button:hover {
+    background-color: #275baa;
+}
+
+.button-update {
+    background-color: green;
+    color: white;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.button-delete {
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.button-save {
+    padding: 10px 15px;
+    background-color: #3273dc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.button-save:hover {
+    background-color: #275baa;
+}
+
+.button-delete:hover {
+    background-color: #690000;
+}
+
+.button-update:hover {
+    background-color: rgb(0, 78, 0);
+}
+
+.button-delete-all {
+    padding: 10px 15px;
+    background-color: #ff3b3b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.button-delete-all:hover {
+    background-color: #cc0000;
+}
+
+
+
+.add-user-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #3273dc;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.add-user-link:hover {
+    background-color: #275baa;
+}
+
+.loading-message {
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+}
